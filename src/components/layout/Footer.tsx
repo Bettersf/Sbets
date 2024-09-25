@@ -4,7 +4,7 @@ import { FOOTER_LINKS, FOOTER_TWITTER_LINK } from "../../constants";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-blue-800 to-purple-800 rounded-t-2xl shadow-t-3xl">
+    <footer className="bg-black border-t-2 border-[#5ce1e6] rounded-t-2xl shadow-lg">
       <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a
@@ -13,7 +13,7 @@ export default function Footer() {
             href="https://gamba.so/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/logo.svg" className="h-10" alt="Gamba Logo" />
+            <img src="/logos.png" className="h-10" alt="Sbets Logo" />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             {FOOTER_LINKS.map((link) => (
