@@ -221,7 +221,7 @@ body::-webkit-scrollbar-thumb {
 
 .game-card:hover {
   transform: scale(1.01);
-  outline: #9564ff33 solid 5px;
+  outline: #5ce1e6 solid 5px;
   outline-offset: 0px;
 }
 
