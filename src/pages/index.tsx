@@ -57,6 +57,16 @@ export default function HomePage() {
               
               CA: 8hHfvoKce1Weh41wJVMky1U8ghwSdnMefeGzZQgf1D2w
             </p>
+            <p className="my-2 text-sm max-w-sm">
+              Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fee on
+              each play when players use this platform using your code.
+            </p>
+            <button
+              className="bg-[#8851ff] hover:bg-[#9564ff] rounded-lg p-2 text-xs bg-"
+              onClick={copyInvite}
+            >
+              Copy Link
+            </button>
           </div>
 
           {/* Right Side: Buttons with Wider Red Border and Transparent Black Background */}
