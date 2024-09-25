@@ -30,9 +30,10 @@ import { useDisclaimer } from "@/hooks/useDisclaimer";
 import { useMemo } from "react";
 import { useUserStore } from "@/hooks/useUserStore";
 
+// Dynamic import with fallback loader
 const DynamicTokenMetaProvider = dynamic(
   () => import("gamba-react-ui-v2").then((mod) => mod.TokenMetaProvider),
-  { ssr: false },
+  { ssr: false, loading: () => <p>Loading tokens...</p> }, // Optional fallback
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -51,7 +52,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   if (!process.env.NEXT_PUBLIC_PLATFORM_CREATOR) {
     throw new Error(
-      "NEXT_PUBLIC_PLATFORM_CREATOR environment variable is not set",
+      "NEXT_PUBLIC_PLATFORM_CREATOR environment variable is not set or invalid. Please check your environment configuration."
     );
   }
 
@@ -59,48 +60,49 @@ function MyApp({ Component, pageProps }: AppProps) {
     process.env.NEXT_PUBLIC_PLATFORM_CREATOR as string,
   );
 
+  // Memoization for wallets, even if empty for now
   const wallets = useMemo(() => [], []);
 
   return (
-   <div className="bg-background-image h-screen overflow-auto">
-    <ConnectionProvider
-      endpoint={RPC_ENDPOINT}
-      config={{ commitment: "processed" }}
-    >
-      <WalletProvider autoConnect wallets={wallets}>
-        <WalletModalProvider>
-          <DynamicTokenMetaProvider tokens={TOKENLIST}>
-            <SendTransactionProvider {...sendTransactionConfig}>
-              <GambaProvider plugins={[makeReferralPlugin()]}>
-                <GambaPlatformProvider
-                  creator={PLATFORM_CREATOR_ADDRESS}
-                  defaultCreatorFee={PLATFORM_CREATOR_FEE}
-                  defaultJackpotFee={PLATFORM_JACKPOT_FEE}
-                >
-                  <Header />
-                  <DefaultSeo {...BASE_SEO_CONFIG} />
-                  <Component {...pageProps} />
-                  <Footer />
-                  <Toaster
-                    position="bottom-right"
-                    richColors
-                    toastOptions={{
-                      style: {
-                        backgroundImage:
-                          "linear-gradient(to bottom right, #1e3a8a, #6b21a8)",
-                      },
-                    }}
-                  />
-                  {LIVE_EVENT_TOAST && <GameToast />}
-                  {showDisclaimer && <DisclaimerModal />}
-                </GambaPlatformProvider>
-              </GambaProvider>
-            </SendTransactionProvider>
-          </DynamicTokenMetaProvider>
-        </WalletModalProvider>
-      </WalletProvider>
-    </ConnectionProvider>
-   </div>
+    <div className="bg-background-image h-screen overflow-auto">
+      <ConnectionProvider
+        endpoint={RPC_ENDPOINT}
+        config={{ commitment: "processed" }}
+      >
+        <WalletProvider autoConnect wallets={wallets}>
+          <WalletModalProvider>
+            <DynamicTokenMetaProvider tokens={TOKENLIST}>
+              <SendTransactionProvider {...sendTransactionConfig}>
+                <GambaProvider plugins={[makeReferralPlugin()]}>
+                  <GambaPlatformProvider
+                    creator={PLATFORM_CREATOR_ADDRESS}
+                    defaultCreatorFee={PLATFORM_CREATOR_FEE}
+                    defaultJackpotFee={PLATFORM_JACKPOT_FEE}
+                  >
+                    <Header />
+                    <DefaultSeo {...BASE_SEO_CONFIG} />
+                    <Component {...pageProps} />
+                    <Footer />
+                    <Toaster
+                      position="bottom-right"
+                      richColors
+                      toastOptions={{
+                        style: {
+                          backgroundImage:
+                            "linear-gradient(to bottom right, #1e3a8a, #6b21a8)",
+                        },
+                      }}
+                    />
+                    {LIVE_EVENT_TOAST && <GameToast />}
+                    {showDisclaimer && <DisclaimerModal />}
+                  </GambaPlatformProvider>
+                </GambaProvider>
+              </SendTransactionProvider>
+            </DynamicTokenMetaProvider>
+          </WalletModalProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+    </div>
   );
 }
 
