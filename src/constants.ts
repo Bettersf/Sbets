@@ -62,13 +62,13 @@ export const BASE_SEO_CONFIG = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://play-gamba.vercel.app/",
+    url: "https://s-bets.fun",
     title: "SBets - Casino",
     description:
       "Onchain Solana Casino.",
     images: [
       {
-        url: "https://play-gamba.vercel.app/seo.png",
+        url: "https://s-bets.fun/seo.png",
         alt: "SBets - Casino",
       },
     ],
