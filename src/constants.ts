@@ -27,26 +27,26 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
+    href: "https://t.me/SolBets_Casino",
+    title: "Telegram",
   },
   {
-    href: "https://explorer.gamba.so/create",
-    title: "🚀 Create Pool",
+    href: "https://t.me/",
+    title: "Announcements",
   },
   {
-    href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
+    href: "https://",
+    title: "Whitepaper",
   },
   {
-    href: "https://discord.com/invite/HSTtFFwR",
+    href: "https://",
     title: "💬 Join Discord",
   },
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://twitter.com/",
+  title: "© 2024 SolBets",
 };
 
 /******************************************
@@ -56,28 +56,28 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "Gamba - NEXTjs Demo",
+  defaultTitle: "SolBets - Casino",
   description:
-    "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+    "Onchain Solana Casino.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://play-gamba.vercel.app/",
-    title: "Gamba - NEXTjs Demo",
+    title: "SolBets - Casino",
     description:
-      "The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.",
+      "Onchain Solana Casino.",
     images: [
       {
         url: "https://play-gamba.vercel.app/seo.png",
-        alt: "Gamba - NEXTjs Demo",
+        alt: "SolBets - Casino",
       },
     ],
-    site_name: "Gamba - NEXTjs Demo",
+    site_name: "SolBets - Casino",
   },
   twitter: {
     cardType: "summary_large_image",
-    site: "https://twitter.com/gambalabs",
-    handle: "@gambalabs",
+    site: "https://twitter.com/",
+    handle: "@Solbet",
   },
   additionalMetaTags: [
     {
