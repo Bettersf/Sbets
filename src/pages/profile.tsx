@@ -106,7 +106,7 @@ const Profile: React.FC = () => {
             </h1>
             <p className="text-lg">
               Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fee on
-              each play when players use this platform.
+              each Bet your refered friend uses this platform.
             </p>
             <div className="break-all flex-wrap border border-gray-300 p-4 rounded-md">
               <p className="text-lg">{`${location.origin}?code=${
