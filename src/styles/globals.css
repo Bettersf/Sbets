@@ -298,3 +298,10 @@ body::-webkit-scrollbar-thumb {
   pointer-events: none;
   border-radius: 10px;
 }
+
+.bg-background-image {
+  background-image: url('/galaxy.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
