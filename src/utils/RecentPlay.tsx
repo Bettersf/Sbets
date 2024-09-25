@@ -23,7 +23,7 @@ export const extractMetadata = (event: GambaTransaction<"GameSettled">) => {
         meta: {
           background: "#fff",
           name: gameNameFallback,
-          image: "/logos.png",
+          image: "/logo.png",
           description: `unknown game: ${gameIdFallback}`,
           volatility: 0,
         },
