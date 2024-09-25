@@ -86,7 +86,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                     toastOptions={{
                       style: {
                         backgroundImage:
-                          "linear-gradient(to bottom right, #0d0712, #0d0712)",
+                          "linear-gradient(to bottom right, #1e3a8a, #6b21a8)",
                       },
                     }}
                   />
