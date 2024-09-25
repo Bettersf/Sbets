@@ -50,7 +50,7 @@ export default function HomePage() {
             height: "100%",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white to-transparent opacity-10 transform rotate-12 scale-150 blur-xl pointer-events-none"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-20"></div>
 
         <div className="bg-[#15152e]/80 rounded-lg p-4 lg:col-span-2 text-center lg:text-left">
           <div className="flex items-center justify-center md:justify-start">
