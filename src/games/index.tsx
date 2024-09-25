@@ -26,7 +26,7 @@ export const GAMES: GameBundle<GameMeta>[] = [
   {
     id: "slots",
     meta: {
-      background: "#132e30",
+      background: "0d0f0f",
       name: "Slots",
       image: "/games/logo.png",
       description: `Slots stands as the epitome of chance and anticipation, offering players a captivating journey through its reels. Engage in the timeless thrill of spinning symbols to align and unlock potential rewards, prominently displayed upfront. With its meticulously crafted interface, Slots delivers a fair and riveting casino experience, meticulously tailored for digital enthusiasts, promising moments of pure excitement and suspense.`,
