@@ -71,25 +71,25 @@ export default function HomePage() {
               onClick={() =>
                 window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
               }
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               👨‍💻 Build your own
             </button>
             <button
               onClick={() => window.open("https://gamba.so/docs")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               📖 Gamba Docs
             </button>
             <button
               onClick={() => window.open("https://explorer.gamba.so")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               🌐 Explorer
             </button>
             <button
               onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               💬 Join Discord
             </button>
