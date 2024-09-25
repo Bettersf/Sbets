@@ -70,29 +70,29 @@ export default function HomePage() {
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
             <button
               onClick={() =>
-                window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
+                window.open("https://dexscreener.com")
               }
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              👨‍💻 Build your own
+              DexScreener
             </button>
             <button
-              onClick={() => window.open("https://gamba.so/docs")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              onClick={() => window.open("https://t.me/")}
+              className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              📖 Gamba Docs
+              Telegram
             </button>
             <button
-              onClick={() => window.open("https://explorer.gamba.so")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              onClick={() => window.open("https://twitter.com/")}
+              className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              🌐 Explorer
+              Twitter
             </button>
             <button
-              onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
-              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              onClick={() => window.open("https://t.me/")}
+              className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              💬 Join Discord
+              Announcements
             </button>
           </div>
         </div>
