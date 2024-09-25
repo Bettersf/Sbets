@@ -14,7 +14,7 @@ export const PLATFORM_CREATOR_FEE = 0.05; // 5% !!max 5%!!
 export const PLATFORM_JACKPOT_FEE = 0.01; // 0.1%
 
 // Referral fee (in %)
-export const PLATFORM_REFERRAL_FEE = 0.0025; // 0.25%
+export const PLATFORM_REFERRAL_FEE = 0.01; // 1%
 
 // Toggle live toast events - (true = on, false = off)
 export const LIVE_EVENT_TOAST = true;
@@ -27,7 +27,7 @@ export const LIVE_EVENT_TOAST = true;
 
 export const FOOTER_LINKS = [
   {
-    href: "https://t.me/SolBets_Casino",
+    href: "https://t.me/SBetsCasino",
     title: "Telegram",
   },
   {
@@ -46,7 +46,7 @@ export const FOOTER_LINKS = [
 
 export const FOOTER_TWITTER_LINK = {
   href: "https://twitter.com/",
-  title: "© 2024 SolBets",
+  title: "© 2024 SBets",
 };
 
 /******************************************
@@ -56,28 +56,28 @@ export const FOOTER_TWITTER_LINK = {
  ******************************************/
 
 export const BASE_SEO_CONFIG = {
-  defaultTitle: "SolBets - Casino",
+  defaultTitle: "SBets - Casino",
   description:
     "Onchain Solana Casino.",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://play-gamba.vercel.app/",
-    title: "SolBets - Casino",
+    title: "SBets - Casino",
     description:
       "Onchain Solana Casino.",
     images: [
       {
         url: "https://play-gamba.vercel.app/seo.png",
-        alt: "SolBets - Casino",
+        alt: "SBets - Casino",
       },
     ],
-    site_name: "SolBets - Casino",
+    site_name: "SBets - Casino",
   },
   twitter: {
     cardType: "summary_large_image",
     site: "https://twitter.com/",
-    handle: "@Solbet",
+    handle: "@Sbets",
   },
   additionalMetaTags: [
     {
