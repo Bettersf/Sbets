@@ -1,6 +1,6 @@
 {
-  "name": "Gamba Play",
-  "short_name": "Gamba",
+  "name": "Sbets Casino",
+  "short_name": "Sbets",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#000000",
@@ -10,12 +10,12 @@
   "description": "",
   "icons": [
     {
-      "src": "/icon-512.png",
+      "src": "/logo.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/icon-192.png",
+      "src": "/logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
