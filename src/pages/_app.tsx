@@ -62,7 +62,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   const wallets = useMemo(() => [], []);
 
   return (
-   <div className="bg-background-image h-screen overflow-auto">
     <ConnectionProvider
       endpoint={RPC_ENDPOINT}
       config={{ commitment: "processed" }}
@@ -100,7 +99,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         </WalletModalProvider>
       </WalletProvider>
     </ConnectionProvider>
-  </div>
   );
 }
 
