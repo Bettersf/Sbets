@@ -43,7 +43,7 @@ export default function HomePage() {
           }}
         >
           {/* Darker transparent filter overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white to-transparent opacity-10 transform rotate-12 scale-150 blur-xl pointer-events-none"></div>
 
           {/* Left Side: Text */}
           <div className="lg:w-2/3 text-center lg:text-left z-10">
