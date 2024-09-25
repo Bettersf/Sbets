@@ -30,8 +30,8 @@ function RecentPlay({ event }: { event: GambaTransaction<"GameSettled"> }) {
       <img src={`/games/${game.id}/logo.png`} alt={"Splash"} className="h-10" />
       <div className={textColorClass}>
         <img
-          src="/logo.svg"
-          alt="gamba"
+          src="/logos.png"
+          alt="Sbets"
           className="absolute top-2 right-2 w-24 h-6 rounded-full"
         />
         <div className="font-bold text-lg">
@@ -83,12 +83,12 @@ function RecentPlay({ event }: { event: GambaTransaction<"GameSettled"> }) {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="bg-[#8851ff] hover:bg-[#9564ff] text-xs rounded-lg p-1">
+            <button className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl">
               Verify
             </button>
           </a>
           <Link href={`/play/${game.id}`} passHref>
-            <button className="bg-[#8851ff] hover:bg-[#9564ff] text-xs rounded-lg p-1">
+            <button className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl">
               Play
             </button>
           </Link>
