@@ -61,7 +61,7 @@ export function RecentPlay({
           />
         ) : (
           <img
-            src="/logo.svg"
+            src="/logo.png"
             alt={`${gameNameFallback} Splash`}
             className="items-center justify-center"
             width="60px"
