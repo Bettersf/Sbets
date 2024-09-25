@@ -83,12 +83,12 @@ function RecentPlay({ event }: { event: GambaTransaction<"GameSettled"> }) {
             target="_blank"
             rel="noreferrer"
           >
-            <button className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl">
+            <button className="bg-[#8851ff] hover:bg-[#9564ff] text-xs rounded-lg p-1">
               Verify
             </button>
           </a>
           <Link href={`/play/${game.id}`} passHref>
-            <button className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl">
+            <button className="bg-[#8851ff] hover:bg-[#9564ff] text-xs rounded-lg p-1">
               Play
             </button>
           </Link>
