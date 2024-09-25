@@ -70,7 +70,7 @@ export function RecentPlay({
       </div>
       <div
         className="flex items-center justify-center gap-2"
-        style={{ color: "#a079ff" }}
+        style={{ color: "#0a080f" }}
       >
         {`${data.user.toBase58().substring(0, 4)}...${data.user
           .toBase58()
