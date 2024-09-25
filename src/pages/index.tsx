@@ -40,10 +40,6 @@ export default function HomePage() {
               transformOrigin: "top center",
               zIndex: -1,
               position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "100%",
             }}
           />
           <div className="absolute inset-0 bg-black bg-opacity-20"></div>
