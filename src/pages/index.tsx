@@ -50,7 +50,7 @@ export default function HomePage() {
               <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
                 Welcome to Sbets Casino!
               </h1>
-              <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
+              <img src="/wave.gif" className="h-14" alt="Sbets Logo" />
             </div>
             <p className="my-2 text-white drop-shadow">
               Ca: TBA!
