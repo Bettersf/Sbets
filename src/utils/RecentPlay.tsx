@@ -23,7 +23,7 @@ export const extractMetadata = (event: GambaTransaction<"GameSettled">) => {
         meta: {
           background: "#fff",
           name: gameNameFallback,
-          image: "/logo.png",
+          image: "/logos.png",
           description: `unknown game: ${gameIdFallback}`,
           volatility: 0,
         },
@@ -54,7 +54,7 @@ export function RecentPlay({
       <div className="flex items-center justify-center gap-2">
         {!isFallback ? (
           <img
-            src={`/games/${game.id}/logo.png`}
+            src={`/games/${game.id}/logos.png`}
             alt={`${game?.meta?.name} Splash`}
             className="items-center justify-center"
             width="60px"
