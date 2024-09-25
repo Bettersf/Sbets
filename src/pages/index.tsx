@@ -60,7 +60,9 @@ export default function HomePage() {
             <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
           </div>
           <p className="my-2 text-white drop-shadow">
-            The gambleFi protocol with end-to-end tools for on-chain degeneracy on Solana.
+            Welcome to SBets Casino! 
+            
+           CA: TBA!
           </p>
           <p className="my-2 text-sm max-w-sm">
             Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fee on each play when players use this platform using your code.
@@ -75,28 +77,28 @@ export default function HomePage() {
 
         <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
           <button
-            onClick={() => window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")}
+            onClick={() => window.open("https://dexscreener.com/")}
             className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
           >
-            👨‍💻 Build your own
+            Dex Screener
           </button>
           <button
-            onClick={() => window.open("https://gamba.so/docs")}
+            onClick={() => window.open("https://t.me/SBetsCasino")}
             className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
           >
-            📖 Gamba Docs
+            Telegram
           </button>
           <button
-            onClick={() => window.open("https://explorer.gamba.so")}
+            onClick={() => window.open("https://twitter.com/")}
             className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
           >
-            🌐 Explorer
+            Twitter
           </button>
           <button
-            onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
+            onClick={() => window.open("https://gamba.so")}
             className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#0fe2fa] hover:bg-[#12100e] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
           >
-            💬 Join Discord
+            Explorer
           </button>
         </div>
       </div>
