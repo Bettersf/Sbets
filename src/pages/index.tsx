@@ -57,7 +57,7 @@ export default function HomePage() {
             </p>
             <p className="my-2 text-sm max-w-sm">
               Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fees on
-              each Bet done by players using your using your referral code.
+              each Bet done by players using your referral code.
             </p>
             <button
               className="bg-[#8851ff] hover:bg-[#9564ff] rounded-lg p-2 text-xs bg-"
@@ -76,7 +76,7 @@ export default function HomePage() {
               DexScreener
             </button>
             <button
-              onClick={() => window.open("https://t.me/")}
+              onClick={() => window.open("https://t.me/SBetsCasino")}
               className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               Telegram
