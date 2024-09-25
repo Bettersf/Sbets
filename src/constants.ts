@@ -14,7 +14,7 @@ export const PLATFORM_CREATOR_FEE = 0.05; // 5% !!max 5%!!
 export const PLATFORM_JACKPOT_FEE = 0.01; // 0.1%
 
 // Referral fee (in %)
-export const PLATFORM_REFERRAL_FEE = 0.01; // 1%
+export const PLATFORM_REFERRAL_FEE = 0.005; // 1%
 
 // Toggle live toast events - (true = on, false = off)
 export const LIVE_EVENT_TOAST = true;
