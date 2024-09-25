@@ -33,16 +33,17 @@ export default function HomePage() {
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",
-              height: "441px",  // Fixed height for the container
-              minHeight: "350px",  // Minimum height for responsiveness
-              borderRadius: "20px",  // Matching border radius
               transform: "perspective(800px) rotateX(40deg)",
               transformOrigin: "top center",
               zIndex: -1,
               position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
             }}
           />
-          <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white to-transparent opacity-10 transform rotate-12 scale-150 blur-xl pointer-events-none"></div>
 
           <div className="bg-[#15152e]/80 rounded-lg p-4 lg:col-span-2 text-center lg:text-left">
             <div className=" flex items-center justify-center md:justify-start">
@@ -71,25 +72,25 @@ export default function HomePage() {
               onClick={() =>
                 window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
               }
-              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               👨‍💻 Build your own
             </button>
             <button
               onClick={() => window.open("https://gamba.so/docs")}
-              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               📖 Gamba Docs
             </button>
             <button
               onClick={() => window.open("https://explorer.gamba.so")}
-              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               🌐 Explorer
             </button>
             <button
               onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
-              className="className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#21cede] hover:bg-[#06080a] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
+              className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               💬 Join Discord
             </button>
