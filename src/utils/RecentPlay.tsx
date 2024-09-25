@@ -54,7 +54,7 @@ export function RecentPlay({
       <div className="flex items-center justify-center gap-2">
         {!isFallback ? (
           <img
-            src={`/games/${game.id}/logos.png`}
+            src={`/games/${game.id}/logo.png`}
             alt={`${game?.meta?.name} Splash`}
             className="items-center justify-center"
             width="60px"
