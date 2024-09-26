@@ -39,7 +39,7 @@ export const FOOTER_LINKS = [
     title: "Whitepaper(TBA)",
   },
   {
-    href: "https://explorer.gamba.so/platform/F2dqE4HP8jicJqi26WTSEaFWZED5WcnZPs6J5dL8Utuw",
+    href: "https://explorer.gamba.so/platform/Avh5aRG3N3uuDNYETLAnhwQ9krSmVPvjcHZkY6FEAVC8",
     title: "Explorer",
   },
 ];
