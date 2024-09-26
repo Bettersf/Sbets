@@ -53,7 +53,7 @@ export default function HomePage() {
               <img src="/wave.gif" className="h-14" alt="Sbets Logo" />
             </div>
             <p className="my-2 text-white drop-shadow">
-              Ca: TBA!
+              Ca: C7xM9V2Vchv3RLdsDzRuCWqn4YH9Lm3388UW1mSLaasX
             </p>
             <p className="my-2 text-sm max-w-sm">
               Share your link to earn a {PLATFORM_REFERRAL_FEE * 100}% fees on
@@ -69,7 +69,7 @@ export default function HomePage() {
           <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
             <button
               onClick={() =>
-                window.open("https://dexscreener.com")
+                window.open("https://dexscreener.com/solana/c7xm9v2vchv3rldsdzrucwqn4yh9lm3388uw1mslaasx")
               }
               className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
