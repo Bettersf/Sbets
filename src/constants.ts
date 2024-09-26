@@ -45,7 +45,7 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_TWITTER_LINK = {
-  href: "https://twitter.com/",
+  href: "https://x.com/SbetsSolana",
   title: "© 2024 SBets",
 };
 
