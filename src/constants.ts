@@ -98,6 +98,16 @@ export const BASE_SEO_CONFIG = {
  ******************************************/
 
 export const TOKENLIST = [
+
+  {
+    mint: new PublicKey("FakeCDoCX1NWywV9m63fk7gmV9S4seMoyqzcNYEmRYjy"),
+    name: "Test Token",
+    symbol: "FAKE",
+    image: "/fakemoney.png",
+    baseWager: 1e9,
+    decimals: 9,
+    usdPrice: 0,
+  },
   // SOL
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
@@ -128,6 +138,36 @@ export const TOKENLIST = [
     decimals: 5,
     baseWager: 2000000e5,
   },
+  
+  // Jupiter
+   {
+     mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
+     name: "Jupiter",
+     symbol: "JUP",
+     image: "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f7374617469632e6a75702e61672f6a75702f69636f6e2e706e67",
+     decimals: 6,
+     baseWager: 0.01e9,
+   },
+
+  // BONK
+   {
+     mint: new PublicKey("DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"),
+     name: "BONK",
+     symbol: "BONK",
+     image: "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f617277656176652e6e65742f685169505a4f73525a584758424a645f3832506856646c4d5f68414373545f713677717766356353593749",
+     decimals: 5,
+     baseWager: 0.01e5,
+   },
+
+  // WormHOle Token
+   {
+     mint: new PublicKey("85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"),
+     name: "WormHole",
+     symbol: "W",
+     image: "https://statics.solscan.io/cdn/imgs/s60?ref=68747470733a2f2f776f726d686f6c652e636f6d2f746f6b656e2e706e67",
+     decimals: 6,
+     baseWager: 0.01e6,
+   },
 
   // Add New Public pool
   // {
