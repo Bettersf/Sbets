@@ -31,16 +31,16 @@ export const FOOTER_LINKS = [
     title: "Telegram",
   },
   {
-    href: "https://t.me/",
+    href: "https://t.me/SbetsAnnouncements",
     title: "Announcements",
   },
   {
     href: "https://",
-    title: "Whitepaper",
+    title: "Whitepaper(TBA)",
   },
   {
-    href: "https://",
-    title: "💬 Join Discord",
+    href: "https://explorer.gamba.so/platform/F2dqE4HP8jicJqi26WTSEaFWZED5WcnZPs6J5dL8Utuw",
+    title: "Explorer",
   },
 ];
 
