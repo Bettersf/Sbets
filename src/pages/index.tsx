@@ -82,7 +82,7 @@ export default function HomePage() {
               Telegram
             </button>
             <button
-              onClick={() => window.open("https://twitter.com/")}
+              onClick={() => window.open("https://x.com/SbetsSolana")}
               className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
               Twitter
