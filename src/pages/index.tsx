@@ -6,7 +6,6 @@ import RecentPlays from "@/components/game/RecentPlays/RecentPlays";
 import { toast } from "sonner";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
-import Whitepaper from "/public/Whitepaper.pdf";
 
 export default function HomePage() {
   const walletModal = useWalletModal();
