@@ -1,6 +1,5 @@
 // src\constants.ts
 import { PublicKey } from "@solana/web3.js";
-import Whitepaper from "../../public/SBETS V1 Whitepaper.pdf";
 
 
 /******************************************
@@ -35,10 +34,6 @@ export const FOOTER_LINKS = [
   {
     href: "https://t.me/SbetsAnnouncements",
     title: "Announcements",
-  },
-  {
-    href: "SBETS V1 Whitepaper.pdf",
-    title: "Whitepaper(TBA)",
   },
   {
     href: "https://explorer.gamba.so/platform/Avh5aRG3N3uuDNYETLAnhwQ9krSmVPvjcHZkY6FEAVC8",
