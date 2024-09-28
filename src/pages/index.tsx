@@ -6,6 +6,7 @@ import RecentPlays from "@/components/game/RecentPlays/RecentPlays";
 import { toast } from "sonner";
 import { useWallet } from "@solana/wallet-adapter-react";
 import { useWalletModal } from "@solana/wallet-adapter-react-ui";
+import Whitepaper from "../../public/Whitepaper.pdf";
 
 export default function HomePage() {
   const walletModal = useWalletModal();
@@ -88,10 +89,10 @@ export default function HomePage() {
               Twitter
             </button>
             <button
-              onClick={() => window.open("https://t.me/SbetsAnnouncements")}
+              onClick={() => window.open("Whitepaper.pdf")}
               className="rounded-lg p-3 w-full lg:w-64 bg-black bg-opacity-70 border-2 border-[#02c2ed] hover:bg-[#0d0f0f] text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
             >
-              Announcements
+              V1 Whitepaper
             </button>
           </div>
         </div>
